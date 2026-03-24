@@ -11,9 +11,9 @@ module.exports = async (req, res) => {
     return res.status(200).end();
   }
 
-  // Reconstruct the Notion API path from the dynamic route segments
-  const pathSegments = req.query.path || [];
-  const notionPath = '/v1/' + pathSegments.join('/');
+  // Reconstruct the Notion API path from the query parameter
+  const pathParam = req.query.path || '';
+  const notionPath = '/v1/' + pathParam;
 
   // Forward any query parameters (e.g. ?page_size=...)
   const queryString = new URL(req.url, 'http://localhost').search;

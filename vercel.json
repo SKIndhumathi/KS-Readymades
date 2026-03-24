@@ -5,7 +5,7 @@
   "rewrites": [
     {
       "source": "/notion-api/v1/:path*",
-      "destination": "/api/notion-proxy/:path*"
+      "destination": "/api/notion?path=:path*"
     },
     {
       "source": "/((?!api/).*)",
