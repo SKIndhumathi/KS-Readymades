@@ -1,0 +1,15 @@
+{
+  "/notion-api": {
+    "target": "https://api.notion.com",
+    "secure": true,
+    "changeOrigin": true,
+    "pathRewrite": {
+      "^/notion-api": ""
+    },
+    "headers": {
+      "Authorization": "Bearer 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",
+      "Notion-Version": "2022-06-28",
+      "Content-Type": "application/json"
+    }
+  }
+}

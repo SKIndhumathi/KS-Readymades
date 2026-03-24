@@ -1,0 +1,63 @@
+﻿node.exe : - 
+Building...
+At line:1 char:1
++ & "C:\Program Files\
+nodejs/node.exe" 
+"C:\Program 
+Files\nodejs/node_mo 
+...
++ ~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~
+~~~~~
+    + CategoryInfo    
+          : NotSpeci  
+  fied: (- Building   
+ ...:String) [], R    
+emoteException
+    + FullyQualifiedE 
+   rrorId : NativeCo  
+  mmandError
+ 
+
+Application bundle generation failed. [8.594 seconds]
+
+X [ERROR] TS-992003: 
+No suitable injection 
+token for parameter 
+'router' of class 'Pro
+ductDetailsComponent'.
+  Consider using the 
+@Inject decorator to 
+specify an injection 
+token. [plugin 
+angular-compiler]
+
+    src/app/features/p
+roduct-details/product
+-details.component.ts:
+292:12:
+      292 Γöé     
+private router: import
+('@angular/router').Ro
+uter
+          Γò╡         
+    ~~~~~~
+
+  This type is not 
+supported as 
+injection token.
+
+    src/app/features/p
+roduct-details/product
+-details.component.ts:
+292:20:
+      292 Γöé     
+private router: import
+('@angular/router').Ro
+uter
+          Γò╡         
+            ~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~
+
+
