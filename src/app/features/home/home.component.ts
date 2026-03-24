@@ -15,14 +15,14 @@ import { Observable } from 'rxjs';
       <!-- Premium Hero Section -->
       <section class="hero-section">
         <div class="hero-bg">
-          <img src="https://images.unsplash.com/photo-1593032465175-481ac7f401a0?w=1920&q=80" alt="Premium Men's Wear">
+          <img src="https://images.unsplash.com/photo-1489987707023-afc232dce9f2?w=1920&q=80" alt="Premium Readymades">
           <div class="hero-overlay"></div>
         </div>
         
         <div class="container hero-content">
-          <h4 class="hero-subtitle">The New Standard</h4>
-          <h1 class="hero-title">Elevate Your<br>Wardrobe</h1>
-          <p class="hero-desc">Discover our curated collection of timeless elegance and masterful tailoring. Designed for the modern gentleman.</p>
+          <h4 class="hero-subtitle">Casual & Comfort</h4>
+          <h1 class="hero-title">Find Your <br>Perfect Fit</h1>
+          <p class="hero-desc">Discover our premium collection of T-shirts, trousers, and quality daily wear tailored for every occasion.</p>
           <div class="hero-actions">
             <a routerLink="/shop" class="btn btn-accent">Explore Collection</a>
           </div>
@@ -35,37 +35,35 @@ import { Observable } from 'rxjs';
           <h2 class="section-title">Shop by Category</h2>
           
           <div class="grid grid-cols-3 category-grid">
-            
-            <a routerLink="/shop" [queryParams]="{category: 'Suits'}" class="category-card">
+            <a routerLink="/shop" [queryParams]="{category: 'T-Shirts'}" class="category-card">
               <div class="cat-img-wrap">
-                <img src="https://images.unsplash.com/photo-1594938298596-70f56fb3caa9?w=800&q=80" alt="Bespoke Suits">
+                <img src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=800&q=80" alt="T-Shirts">
               </div>
               <div class="cat-content">
-                <h3>Bespoke Suits</h3>
+                <h3>T-Shirts</h3>
                 <span class="view-link">View Collection</span>
               </div>
             </a>
             
-            <a routerLink="/shop" [queryParams]="{category: 'Shirts'}" class="category-card">
+            <a routerLink="/shop" [queryParams]="{category: 'Jeans'}" class="category-card">
               <div class="cat-img-wrap">
-                <img src="https://images.unsplash.com/photo-1626497764746-6dc36546b388?w=800&q=80" alt="Casual Shirts">
+                <img src="https://images.unsplash.com/photo-1542272604-787c3835535d?w=800&q=80" alt="Jeans">
               </div>
               <div class="cat-content">
-                <h3>Signature Shirts</h3>
+                <h3>Jeans</h3>
                 <span class="view-link">View Collection</span>
               </div>
             </a>
             
-            <a routerLink="/shop" [queryParams]="{category: 'Accessories'}" class="category-card">
+            <a routerLink="/shop" [queryParams]="{category: 'Trousers'}" class="category-card">
               <div class="cat-img-wrap">
-                <img src="https://images.unsplash.com/photo-1627123424574-724758594e93?w=800&q=80" alt="Accessories">
+                <img src="https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?w=800&q=80" alt="Trousers">
               </div>
               <div class="cat-content">
-                <h3>Fine Accessories</h3>
+                <h3>Trousers</h3>
                 <span class="view-link">View Collection</span>
               </div>
             </a>
-            
           </div>
         </div>
       </section>

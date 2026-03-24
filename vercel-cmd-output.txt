@@ -1,0 +1,10 @@
+Loading scopes…
+Searching for existing projects…
+Local settings detected in vercel.json:
+- Build Command: npm run build
+- Install Command: npm install
+- Output Directory: dist/ks-readymades/browser
+> Auto-detected Project Settings for Angular
+
+Error: Project names can be up to 100 characters long and must be lowercase. They can include letters, digits, and the following characters: '.', '_', '-'. However, they cannot contain the sequence '---'. (400)
+Learn More: https://vercel.com/docs/projects/overview#project-name

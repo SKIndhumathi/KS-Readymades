@@ -29,7 +29,8 @@ import { FormsModule } from '@angular/forms';
               <li><label class="custom-radio"><input type="radio" name="cat" value="All" [(ngModel)]="selectedCategory" (change)="filterProducts()"><span>All Collections</span></label></li>
               <li><label class="custom-radio"><input type="radio" name="cat" value="Shirts" [(ngModel)]="selectedCategory" (change)="filterProducts()"><span>Shirts</span></label></li>
               <li><label class="custom-radio"><input type="radio" name="cat" value="Trousers" [(ngModel)]="selectedCategory" (change)="filterProducts()"><span>Trousers</span></label></li>
-              <li><label class="custom-radio"><input type="radio" name="cat" value="Suits" [(ngModel)]="selectedCategory" (change)="filterProducts()"><span>Suits & Blazers</span></label></li>
+              <li><label class="custom-radio"><input type="radio" name="cat" value="T-Shirts" [(ngModel)]="selectedCategory" (change)="filterProducts()"><span>T-Shirts</span></label></li>
+              <li><label class="custom-radio"><input type="radio" name="cat" value="Jeans" [(ngModel)]="selectedCategory" (change)="filterProducts()"><span>Jeans</span></label></li>
               <li><label class="custom-radio"><input type="radio" name="cat" value="Accessories" [(ngModel)]="selectedCategory" (change)="filterProducts()"><span>Accessories</span></label></li>
             </ul>
           </div>
