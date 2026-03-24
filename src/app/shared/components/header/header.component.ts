@@ -24,7 +24,7 @@ import { map, filter } from 'rxjs/operators';
           <a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">Home</a>
           <a routerLink="/shop" [queryParams]="{category: 'Shirts'}" routerLinkActive="active">Shirts</a>
           <a routerLink="/shop" [queryParams]="{category: 'Trousers'}" routerLinkActive="active">Trousers</a>
-          <a routerLink="/shop" [queryParams]="{category: 'T-Shirts'}" routerLinkActive="active">T-Shirts</a>
+          <a routerLink="/shop" [queryParams]="{category: 'Suits'}" routerLinkActive="active">Premium Suits</a>
           <a routerLink="/shop" [queryParams]="{category: 'Accessories'}" routerLinkActive="active">Accessories</a>
         </nav>
         

@@ -21,7 +21,7 @@ import { RouterModule } from '@angular/router';
             <ul>
               <li><a routerLink="/shop" [queryParams]="{category: 'Shirts'}">Casual Shirts</a></li>
               <li><a routerLink="/shop" [queryParams]="{category: 'Trousers'}">Trousers & Jeans</a></li>
-              <li><a routerLink="/shop" [queryParams]="{category: 'T-Shirts'}">T-Shirts</a></li>
+              <li><a routerLink="/shop" [queryParams]="{category: 'Suits'}">Premium Suits</a></li>
               <li><a routerLink="/shop" [queryParams]="{category: 'Accessories'}">Accessories</a></li>
             </ul>
           </div>
